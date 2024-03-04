@@ -1,0 +1,318 @@
+@media screen and (max-width: 1400px) {
+  #profile div h1 {
+    font-size: 60px;
+  }
+  /* #profile .row div p:nth-child(3) {
+    letter-spacing: 4px;
+  } */
+  .learning-section{
+  height: 597px;
+}
+.glider-next{
+  margin-top: 0px;
+  margin-right: -15px;
+}
+.glider-prev{
+  margin-top: 0px;
+  margin-left: -20px;
+}
+}
+/*====== end profile ======*/
+
+@media screen and (max-width: 1200px) {
+  #profile div h1 {
+    font-size: 49px;
+  }
+    .learning-section{
+  height: 565px;
+}
+
+  /*======= end profile =======*/
+}
+@media screen and (max-width: 1000px) {
+  #profile div h1 {
+    font-size: 48px;
+  }
+  #profile div img {
+    margin: 0 auto;
+  }
+  #profile .img {
+    width: 100%;
+  }
+  #about .row div:nth-child(1) {
+    width: 55%;
+    margin-inline: auto;
+  }
+  #about div p {
+    font-size: 18px;
+    margin-inline: auto;
+    text-align: justify;
+  }
+  #experience .text-center p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+     .learning-section{
+  height: 590px;
+}
+.glider-next{
+  margin-top: -10px;
+  margin-right: -15px;
+}
+.glider-prev{
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+  /*====== end profile ======*/
+}
+@media screen and (max-width: 900px) {
+  #profile .row div p:nth-child(1) {
+    margin-top: 20px;
+  }
+  /*====== end profile ======*/
+
+  #about div img {
+    width: 80%;
+  }
+
+  #about div p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 90%;
+  }
+  /*===== end about ======*/
+
+  #experience img {
+    width: 70%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+
+  /*===== end experience ======*/
+  #projects .text-center {
+    margin-top: 15px;
+  }
+}
+
+/* tablet */
+@media (1000px>width>600px) {
+     #profile{
+    margin-top: 210px;
+  }
+  #about {
+  margin-top: 450px;
+}
+#contact {
+  margin-top: 650px;
+}
+footer {
+margin-bottom: 150px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    margin-top: 30px;
+  }
+
+  /*===== nav ======*/
+
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+
+  nav {
+    direction: ltr;
+  }
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .nav-links li a {
+    font-size: 1.2rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .menu-links li a {
+    width: 120px;
+  }
+  .menu-links li a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+  }
+
+  /*============ end nav ===========*/
+
+  /* /////////////////////////////////////////////////////////// */
+
+  /*============ profile ===========*/
+
+  #profile {
+    margin-top: 20px;
+    direction: ltr;
+  }
+  #profile div img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #profile .img {
+    width: 60%;
+  }
+
+  #profile div .b2 {
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+  }
+  #profile div .b1 {
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+  }
+
+  #profile .col-md-5 div:nth-child(1) {
+    font-size: 17px;
+    color: #474747;
+  }
+
+  #profile div .svg a:first-child {
+    margin-top: 10px;
+    width: 50px;
+  }
+
+  #profile div .svg a:last-child {
+    margin-top: 10px;
+    width: 50px;
+  }
+  #profile .row div p:nth-child(3) {
+    /* font-family: "Shantell Sans", cursive; */
+    font-size: 24px;
+    color: #474747;
+    /* letter-spacing: 5px; */
+    margin-top: 20px;
+  }
+
+  
+  /*========== end profile ============*/
+
+  /* /////////////////////////////////////////////////////////// */
+
+  /*=========== about ============*/
+  #about .row div:nth-child(1) {
+    width: 100%;
+    margin-inline: auto;
+  }
+  #about div p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-inline: auto;
+    margin-bottom: 0;
+    text-align: justify;
+    line-height: 2;
+  }
+
+  /*======= end about =========*/
+
+  /* /////////////////////////////////////////////////////////// */
+
+  /*========= experience =============*/
+#experience .container {
+  margin-top: 80px;
+}
+  #experience p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  #experience .text-center p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+    .learning-section{
+  height: 599px;
+}
+
+  /*========= end experience ===========*/
+
+  /* /////////////////////////////////////////////////////////// */
+
+  /*================================ projects ================================ --> */
+  #projects hr {
+  margin-bottom: 80px;
+}
+  #projects .text-center div .b1 {
+    font-size: 13px;
+    height: 42px;
+    font-weight: 600;
+  }
+  #projects .text-center div .b2 {
+    font-size: 13px;
+    height: 42px;
+    font-weight: 600;
+  }
+.glider-next{
+  margin-top: -10px;
+  margin-right: -1px;
+}
+.glider-prev{
+  margin-top: -10px;
+  margin-left: -1px;
+}
+  /*================================ end projects ================================ --> */
+
+  /* /////////////////////////////////////////////////////////// */
+
+  /*================================  contact ================================ --> */
+  #contact div div:first-child {
+  gap: 20px;
+  padding-inline: 20px;
+}
+  /*================================ end contact ================================ --> */
+
+  /* /////////////////////////////////////////////////////////// */
+
+  /*================================ footer ================================ --> */
+  footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  footer div li {
+    margin-inline: 0;
+    margin-bottom: 20px;
+  }
+
+  footer div li a {
+    font-size: 20px;
+  }
+  footer img {
+    width: 24.3px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+  /*================================ end footer ================================ --> */
+}
+@media screen and (max-width: 350px) {
+  #experience h1 {
+    padding-top: 150px;
+  }
+}
